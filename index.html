@@ -12,14 +12,14 @@
       <h1>Vacation Destination Destiny</h1>
       <h2>Where should you go on your next vacation? Take this quiz to figure it out!</h2>
       <form class="form-group" action="index.html" method="post">
-      <label for="form-group">What is your favorite season?</label>
-        <select class="form-control" id=answer1>
-          <option value="100"></option>
-          <option value="0">Winter</option>
-          <option value="1">Fall</option>
-          <option value="2">Spring</option>
-          <option value="3">Summer</option>
-        </select>
+        <label for="form-group">What is your favorite season?</label>
+          <select class="form-control" id=answer1>
+            <option value="100"></option>
+            <option value="0">Winter</option>
+            <option value="1">Fall</option>
+            <option value="2">Spring</option>
+            <option value="3">Summer</option>
+          </select>
 
         <label for="form-group">Where are you most likely to be on a Saturday night?</label>
           <select class="form-control" id=answer2>
@@ -30,109 +30,111 @@
             <option value="3">Partying in the club</option>
           </select>
 
-      <label for="form-group">Which is your spirit animal?</label>
-        <select class="form-control" id=answer3>
-          <option value="100"></option>
-          <option value="0">Sea Lion</option>
-          <option value="1">Deer</option>
-          <option value="2">Parrot</option>
-          <option value="3">Camel</option>
-        </select>
+        <label for="form-group">Which is your spirit animal?</label>
+          <select class="form-control" id=answer3>
+            <option value="100"></option>
+            <option value="0">Sea Lion</option>
+            <option value="1">Deer</option>
+            <option value="2">Parrot</option>
+            <option value="3">Camel</option>
+          </select>
 
-      <label for="form-group">Which extreme activity would you do?</label>
-        <select class="form-control" id=answer4>
-          <option value="100"></option>
-          <option value="0">Take the polar plunge and swim in freezing water</option>
-          <option value="1">Nothing extreme; I'd rather curl up in front of a fire with a good book</option>
-          <option value="2">Cliffdiving</option>
-          <option value="3">Drag racing</option>
-        </select>
-      <div class="beach-label">
+        <label for="form-group">Which extreme activity would you do?</label>
+          <select class="form-control" id=answer4>
+            <option value="100"></option>
+            <option value="0">Take the polar plunge and swim in freezing water</option>
+            <option value="1">Nothing extreme; I'd rather curl up in front of a fire with a good book</option>
+            <option value="2">Cliffdiving</option>
+            <option value="3">Drag racing</option>
+          </select>
+
+        <div class="beach-label">
+          <div class="row">
+            <label  for="beach">Pick your favorite beach out of the four below:</label>
+          </div>
+        </div>
         <div class="row">
-          <label  for="beach">Pick your favorite beach out of the four below:</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="radio col-md-3 col-s-3 col-xs-6" >
-          <label for="form-group">
-            <input type="radio" name="beach" value="ice">
-            <img class="img-responsive" src="img/icelandbeach.jpg" alt="Icelandic beach"/>
-          </label>
-        </div>
-        <div class="cannon">
           <div class="radio col-md-3 col-s-3 col-xs-6" >
             <label for="form-group">
-              <input type="radio" name="beach" value="cannon">
-              <img class="img-responsive" src="img/cannonbeach.jpg" alt="Cannon beach"/>
+              <input type="radio" name="beach" value="ice">
+                <img class="img-responsive" src="img/icelandbeach.jpg" alt="Icelandic beach"/>
             </label>
           </div>
-        </div>
-        <div class="radio col-md-3 col-s-3 col-xs-6">
-          <label for="form-group">
-            <input type="radio" name="beach" value="tropical">
-            <img class="img-responsive" src="img/tropicalbeach.jpg" alt="Tropical beach"/>
-          </label>
-        </div>
-        <div class="deadsea">
+          <div class="cannon">
+            <div class="radio col-md-3 col-s-3 col-xs-6" >
+              <label for="form-group">
+                <input type="radio" name="beach" value="cannon">
+                  <img class="img-responsive" src="img/cannonbeach.jpg" alt="Cannon beach"/>
+              </label>
+            </div>
+          </div>
           <div class="radio col-md-3 col-s-3 col-xs-6">
             <label for="form-group">
-              <input type="radio" name="beach" value="deadsea">
-              <img class="img-responsive" src="img/deadsea.jpg" alt="Dead Sea beach"/>
+              <input type="radio" name="beach" value="tropical">
+                <img class="img-responsive" src="img/tropicalbeach.jpg" alt="Tropical beach"/>
             </label>
           </div>
+          <div class="deadsea">
+            <div class="radio col-md-3 col-s-3 col-xs-6">
+              <label for="form-group">
+                <input type="radio" name="beach" value="deadsea">
+                  <img class="img-responsive" src="img/deadsea.jpg" alt="Dead Sea beach"/>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <label for="form-group">Who is your favorite female artist?</label>
+          <select class="form-control" id=answer5>
+            <option value="100"></option>
+            <option value="0">Bjork</option>
+            <option value="1">Adele</option>
+            <option value="2">Taylor Swift</option>
+            <option value="3">Beyonce</option>
+          </select>
+
+        <label for="form-group">Which is your favorite physical activity?</label>
+          <select class="form-control" id=answer6>
+            <option value="100"></option>
+            <option value="0">Skiing</option>
+            <option value="1">A brisk walk</option>
+            <option value="2">Swimming</option>
+            <option value="3">Shopping</option>
+          </select>
+      </form>
+
+      <div class = "submit-button">
+        <button id= "choose" type="button" name="button">Find out where you should take your next vacation!</button>
+      </div>
+
+      <div class="row" id="results">
+        <div class="col-md-12 col-sm-12 col-xs-12" id="iceland">
+          <img src="img/iceland.jpeg" alt="Iceland" class="img-responsive" />
+          <div class="text">
+            <p>You got Iceland! Enjoy the aurora borealis, world-renowned hot springs, Viking history, an eclectic music scene, or even visit a volcano! This tiny European country is right up your alley.</p>
+          </div>
+        </div>
+
+      <div class="col-md-12 col-sm-12 col-xs-12" id="pei">
+        <img src="img/princeedwardisland.jpeg" alt="Prince Edward Island" class="img-responsive"/>
+        <div class="text">
+          <p>You got Prince Edward Island! This Canadian island is perfect for a relaxing, laid-back vacation. Take a walk along the beach, visit the home of one of literature's most beloved heroines (Anne of Green Gables), got parasailing, or just relax in your cabin by the ocean.</p>
         </div>
       </div>
 
-      <label for="form-group">Who is your favorite female artist?</label>
-        <select class="form-control" id=answer5>
-          <option value="100"></option>
-          <option value="0">Bjork</option>
-          <option value="1">Adele</option>
-          <option value="2">Taylor Swift</option>
-          <option value="3">Beyonce</option>
-        </select>
-
-      <label for="form-group">Which is your favorite physical activity?</label>
-        <select class="form-control" id=answer6>
-          <option value="100"></option>
-          <option value="0">Skiing</option>
-          <option value="1">A brisk walk</option>
-          <option value="2">Swimming</option>
-          <option value="3">Shopping</option>
-        </select>
-      </form>
-        <div class = "submit-button">
-          <button id= "choose" type="button" name="button">Find out where you should take your next vacation!</button>
+      <div class="col-md-12 col-sm-12 col-xs-12" id="costarica">
+        <img src="img/costarica.jpeg" alt="Costa Rica" class="img-responsive"/>
+        <div class="text">
+          <p>You got Costa Rica! This tropical paradise has it all: ziplining through lush forests, jumping off waterfalls, snorkeling, and is even a habitat to sloths (if you're into that...). </p>
         </div>
-        <div class="row" id="results">
-          <div class="col-md-12 col-sm-12 col-xs-12" id="iceland">
-            <img src="img/iceland.jpeg" alt="Iceland" class="img-responsive" />
-            <div class="text">
-              <p>You got Iceland! Enjoy the aurora borealis, world-renowned hot springs, Viking history, an eclectic music scene, or even visit a volcano! This tiny European country is right up your alley.</p>
-            </div>
-          </div>
+      </div>
 
-          <div class="col-md-12 col-sm-12 col-xs-12" id="pei">
-            <img src="img/princeedwardisland.jpeg" alt="Prince Edward Island" class="img-responsive"/>
-            <div class="text">
-              <p>You got Prince Edward Island! This Canadian island is perfect for a relaxing, laid-back vacation. Take a walk along the beach, visit the home of one of literature's most beloved heroines (Anne of Green Gables), got parasailing, or just relax in your cabin by the ocean.</p>
-            </div>
-          </div>
-
-          <div class="col-md-12 col-sm-12 col-xs-12" id="costarica">
-            <img src="img/costarica.jpeg" alt="Costa Rica" class="img-responsive"/>
-            <div class="text">
-              <p>You got Costa Rica! This tropical paradise has it all: ziplining through lush forests, jumping off waterfalls, snorkeling, and is even a habitat to sloths (if you're into that...). </p>
-            </div>
-          </div>
-
-          <div class="col-md-12 col-sm-12 col-xs-12" id="dubai">
-            <img src="img/dubai.jpeg" alt="Dubai" class="img-responsive"/>
-            <div class="text">
-              <p>You got Dubai! The glitz and glam combined with tradition is perfect for you. Go visit the world's tallest building, visit man-made islands, ride camels in the desert, people-watch, or shop until you drop.</p>
-            </div>
-          </div>
+      <div class="col-md-12 col-sm-12 col-xs-12" id="dubai">
+        <img src="img/dubai.jpeg" alt="Dubai" class="img-responsive"/>
+        <div class="text">
+          <p>You got Dubai! The glitz and glam combined with tradition is perfect for you. Go visit the world's tallest building, visit man-made islands, ride camels in the desert, people-watch, or shop until you drop.</p>
         </div>
+      </div>
     </div>
   </body>
 </html>
