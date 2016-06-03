@@ -2,3 +2,6 @@
 p {
   text-align: justify;
 }
+.col-md-6 {
+  display: none;
+}
