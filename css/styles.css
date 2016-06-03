@@ -5,3 +5,29 @@ p {
 .col-md-6 {
   display: none;
 }
+img {
+  margin-top: 20px;
+}
+button {
+  border-radius: 10px;
+}
+button:hover {
+  cursor: pointer8;
+}
+.submit-button {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+.col-s-3 img {
+  margin: 5px;
+  width: 70%;
+  height: 120px;
+}
+.row {
+  margin: 5px 5px 5px 5px;
+}

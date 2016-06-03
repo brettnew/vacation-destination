@@ -47,6 +47,37 @@
           <option value="2">Cliffdiving</option>
           <option value="3">Drag racing</option>
         </select>
+      <div class="beach-label">
+        <div class="row">
+          <label  for="beach">Pick your favorite beach out of the four below:</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="radio col-md-3 col-s-3 col-xs-6" >
+          <label for="form-group">
+            <input type="radio" name="beach" value="ice">
+            <img class="img-responsive" src="img/icelandbeach.jpg" alt="Icelandic beach"/>
+          </label>
+        </div>
+        <div class="radio col-md-3 col-s-3 col-xs-6" >
+          <label for="form-group">
+            <input type="radio" name="beach" value="cannon">
+            <img class="img-responsive" src="img/cannonbeach.jpg" alt="Cannon beach"/>
+          </label>
+        </div>
+        <div class="radio col-md-3 col-s-3 col-xs-6">
+          <label for="form-group">
+            <input type="radio" name="beach" value="tropical">
+            <img class="img-responsive" src="img/tropicalbeach.jpg" alt="Tropical beach"/>
+          </label>
+        </div>
+        <div class="radio col-md-3 col-s-3 col-xs-6">
+          <label for="form-group">
+            <input type="radio" name="beach" value="deadsea">
+            <img class="img-responsive" src="img/deadsea.jpg" alt="Dead Sea beach"/>
+          </label>
+        </div>
+      </div>
 
       <label for="form-group">Who is your favorite female artist?</label>
         <select class="form-control" id=answer5>
@@ -66,9 +97,9 @@
           <option value="3">Shopping</option>
         </select>
       </form>
-
-      <button id= "choose" type="button" name="button">Find out where you should take your next vacation!</button>
-
+        <div class = "submit-button">
+          <button id= "choose" type="button" name="button">Find out where you should take your next vacation!</button>
+        </div>
         <div class="row" id="results">
           <div class="col-md-6 col-sm-6 col-xs-12" id="iceland">
             <img src="img/iceland.jpeg" alt="Iceland" class="img-responsive img-rounded" />
