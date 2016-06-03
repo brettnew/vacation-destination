@@ -1,23 +1,45 @@
 
+body {
+  background-color: #333a56;
+}
+.container {
+  background-color: #e8e8e8;
+}
+border {
+  background-color: #333a56;
+}
+.results {
+  background-color: #52658f;
+}
 p {
   text-align: justify;
+  text-align: center;
 }
-.col-md-6 {
+.text {
+  width: 50%;
+  margin: 0 auto;
+}
+.col-md-12 {
+  border: 5px solid;
   display: none;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
 }
-img {
+.col-md-12 img {
+  display: block;
+  margin: 0 auto;
   margin-top: 20px;
+  padding-bottom: 10px;
 }
 button {
   border-radius: 10px;
+  background-color: #ffffff;
 }
 button:hover {
-  cursor: pointer8;
+  cursor: pointer;
 }
 .submit-button {
-  text-align: center;
-}
-.remove-button {
   text-align: center;
 }
 h1 {
@@ -34,9 +56,9 @@ h2 {
 .row {
   margin: 5px 5px 5px 5px;
 }
-.cannonv{
+.cannon {
   padding: 1px;
 }
-.deadse {
+.deadsea {
   padding: 1px;
 }
