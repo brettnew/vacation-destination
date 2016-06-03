@@ -4,26 +4,24 @@ $(document).ready(function(){
     var beach = $("input:radio[name=beach]:checked").val();
 
     if (beach === "tropical"){
-      $("#costarica").toggle();
+      $("#costarica").show();
       $("#iceland #pei #dubai").hide();
     } else if (vacation <=3){
-      $("#iceland").toggle();
+      $("#iceland").show();
       $("#pei #costarica #dubai").hide();
     } else if (3 < vacation && vacation <= 9){
-      $("#pei").toggle();
+      $("#pei").show();
       $("#iceland #costarica #dubai").hide();
     } else if (9 < vacation && vacation <= 15){
-      $("#costarica").toggle();
+      $("#costarica").show();
       $("#iceland #pei #dubai").hide();
     } else if (15 < vacation && vacation <= 18){
-      $("#dubai").toggle();
+      $("#dubai").show();
       $("#iceland #costarica #pei").hide();
     } else if (vacation >=100){
       alert("Please answer all questions.")
     }else {
       console.log("broken");
     };
-
-
   });
 });

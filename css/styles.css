@@ -17,6 +17,9 @@ button:hover {
 .submit-button {
   text-align: center;
 }
+.remove-button {
+  text-align: center;
+}
 h1 {
   text-align: center;
 }
@@ -30,4 +33,10 @@ h2 {
 }
 .row {
   margin: 5px 5px 5px 5px;
+}
+.cannonv{
+  padding: 1px;
+}
+.deadse {
+  padding: 1px;
 }
